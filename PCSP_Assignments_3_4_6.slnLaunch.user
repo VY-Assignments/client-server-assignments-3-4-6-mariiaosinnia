@@ -3,15 +3,19 @@
     "Name": "New Profile",
     "Projects": [
       {
-        "Path": "Assignment_4\\ThreadedServer\\ThreadedServer.vcxproj",
+        "Path": "Assignment_6\\ChatServer\\ChatServer.vcxproj",
         "Action": "Start"
       },
       {
-        "Path": "Assignment_4\\ThreadedClient\\ThreadedClient.vcxproj",
+        "Path": "Assignment_6\\ChatClient\\ChatClient.vcxproj",
         "Action": "Start"
       },
       {
-        "Path": "Assignment_3\\Client\\Client.vcxproj",
+        "Path": "Assignment_6\\ChatClient_2\\ChatClient_2.vcxproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Assignment_6\\ChatClient_3\\ChatClient_3.vcxproj",
         "Action": "Start"
       }
     ]

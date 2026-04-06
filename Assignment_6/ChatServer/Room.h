@@ -25,13 +25,16 @@ private:
 	std::condition_variable cv;
 
 	void sendMessageToEveryone(RoomMessage message);
+	void broadcastMessage();
+
 public:
 	void initialize();
-	void broadcastMessage();
 
 	void addClient(ClientInfo& client);
 	void removeClient(ClientInfo& client);
 	void addMessage(SOCKET socket, std::string& message);
 	std::vector<ClientInfo*>& getClients();
+
+	void setID(uint8_t room_id);
 };
 
